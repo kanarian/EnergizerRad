@@ -23,7 +23,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         content="Een rad waaraan je kunt draaien om een random energizer te krijgen."
       />
     </Head>
-    {children}
+    <div className="absolute inset-0">{children}</div>
   </div>
 );
 
