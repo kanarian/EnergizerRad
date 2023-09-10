@@ -17,6 +17,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       ></link>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="theme-color" content="#f1f5f9" />
       <meta
         name="description"
         content="Een rad waaraan je kunt draaien om een random energizer te krijgen."
