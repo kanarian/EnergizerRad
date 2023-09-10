@@ -49,7 +49,7 @@ export default () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-slate-200 justify-between p-4 text-slate-600">
+    <div className="flex flex-col min-h-screen bg-slate-100 justify-between p-4 text-slate-600 overscroll-none">
       <div className="flex flex-col gap-3">
         <h1 className="text-4xl font-bold text-slate-900">Energizer Rad 🔋</h1>
         <h3 className="md:max-w-lg max-w-sm">
